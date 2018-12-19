@@ -8,8 +8,7 @@
  */
 ?>
 <div class="card-board">
-
-		<div class="bold-title"><?php the_title();?></div>
+		<div class="line-up"></div>
 		<div class="bold-sub-title">
 			<?php if ( has_post_thumbnail() ) : ?>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">

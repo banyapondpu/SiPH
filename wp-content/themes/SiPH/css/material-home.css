@@ -6929,7 +6929,7 @@ input.mdl-button[type="submit"] {
 }
 
 #logocenter img {
-  width:100%;
+  width:77%;
   height:auto;
 }
 .mdl-bg-header {
@@ -10741,7 +10741,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
             order: 12; }
   .mdl-cell--1-col,
   .mdl-cell--1-col-desktop.mdl-cell--1-col-desktop {
-    width: calc(13%); }
+    width: calc(13.43%); }
     .mdl-grid--no-spacing > .mdl-cell--1-col, .mdl-grid--no-spacing >
     .mdl-cell--1-col-desktop.mdl-cell--1-col-desktop {
       width: 8.3333333333%; }

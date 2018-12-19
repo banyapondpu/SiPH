@@ -48,7 +48,7 @@
 					</a>
 				</div>
 				<div class="mdl-cell mdl-cell--1-col graybox">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>beverage/">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>content/category/beverage">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ico-beverage.png"/>
 					</a>
 				</div>
@@ -58,7 +58,7 @@
 					</a>
 				</div>
 				<div class="mdl-cell mdl-cell--1-col graybox">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>shop/">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>content/category/shop">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ico-shop.png"/>
 					</a>
 				</div>

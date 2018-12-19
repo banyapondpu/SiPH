@@ -80,7 +80,7 @@
 						get_template_part( 'template-parts/content-greybox', get_post_format() );
 					endwhile;
 				?>
-      		</div>
+      </div>
 			<!--Update Block-->
 		</div>
   </main>
