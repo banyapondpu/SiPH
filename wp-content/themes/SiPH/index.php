@@ -43,22 +43,34 @@
 					</a>
 				</div>
 				<div class="mdl-cell mdl-cell--1-col graybox">
+					<a href="<?php esc_url( home_url( '/' ) );?>private-clinic/">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ico-private-clinic.png"/>
+					</a>
 				</div>
 				<div class="mdl-cell mdl-cell--1-col graybox">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>beverage/">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ico-beverage.png"/>
+					</a>
 				</div>
 				<div class="mdl-cell mdl-cell--1-col graybox">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>banking/">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ico-banking.png"/>
+					</a>
 				</div>
 				<div class="mdl-cell mdl-cell--1-col graybox">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>shop/">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ico-shop.png"/>
+					</a>
 				</div>
 				<div class="mdl-cell mdl-cell--1-col graybox">
+					<a href="<?php esc_url( home_url( '/' ) );?>other/">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ico-foods.png"/>
+					</a>
 				</div>
 				<div class="mdl-cell mdl-cell--1-col graybox">
+					<a href="<?php esc_url( home_url( '/' ) );?>contact/">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ico-contact.png"/>
+					</a>
 				</div>
       		</div>
       		</div>
