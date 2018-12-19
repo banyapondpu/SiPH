@@ -8,7 +8,11 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
+	<?php if ( is_home() ) {?>
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/material-home.css">
+	<?php } else {?>
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/material.css">
+	<?php }?>
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/material.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/jquery.bxslider.css">
